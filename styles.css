@@ -1,0 +1,197 @@
+html{
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+h1, h3, li {
+  font-family: 'roboto condensed';
+  color: #666;
+}
+
+h3 {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 50px;
+}
+
+/****************************************
+      NAVBAR Styles
+****************************************/
+
+.navbar-default .navbar-nav>li>a {
+  color: #146008;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar {
+  box-shadow: 0 3px 10px rgba(0,0,0,.3);
+}
+
+.brand-icon {
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  line-height: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+  padding-top: 5px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.jumbotron {
+  background: url('images/2.jpg') no-repeat top center fixed;
+  width: 100%;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 250px;
+  margin-top: 75px;
+  text-align: center;
+  display: block;
+}
+
+.image-thumbnail>img {
+  height: 271px;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  margin: 0;
+}
+
+.caption-text h3 {
+  margin-top: 10%;
+}
+
+.caption-text p {
+  margin-top: 3%;
+  color: #999;
+}
+
+.caption-text {
+  color: #146008;
+  height: 281px;
+  display: block;
+  padding: 30px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.heading {
+  font-size: 3em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  padding-top: 70px;
+}
+
+.skills-row {
+  background: white;
+}
+
+.media {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.media-object{
+  width: 100px;
+  border-radius: 4px;
+}
+
+.media-body p {
+  color: #999;
+}
+
+.media-body a {
+  margin: 0;
+}
+
+.lead {
+  margin: 0;
+}
+
+/****************************************
+      contacts Styles
+****************************************/
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  padding: 0;
+}
+.contacts-list p {
+    margin-top: 10px;
+}
+.contacts-list li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+.contacts-list li a {
+    text-decoration: none;
+    color: #333;
+}
+.contacts-list li a:hover {
+    border-bottom: 1px solid;
+}
+
+.contacts-list li img {
+  display: block;
+  width: 75px;
+  border-radius: 50%;
+}
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-list-container, .contacts-form-container {
+    flex: 1 50%;
+    padding: 0 15px;
+}
+.contacts-form input, .contacts-form textarea {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 0 15px;
+}
+.contacts-form textarea {
+    height: 150px;
+}
+.contacts-form button {
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #47749D;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+.link-target {
+  height: 1px;
+  margin-top: 150px;
+}
