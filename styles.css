@@ -165,7 +165,7 @@ hr.style-two {
 }
 .contacts-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .contacts-list-container, .contacts-form-container {
     flex: 1 50%;
