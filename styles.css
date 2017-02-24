@@ -133,6 +133,14 @@ hr.style-two {
   margin: 0;
 }
 
+.yelp-camp-pic {
+  width: 100%;
+}
+
+.yelpCampText {
+  margin-top: 15px;
+}
+
 /****************************************
       contacts Styles
 ****************************************/
